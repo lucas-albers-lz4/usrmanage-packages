@@ -1,26 +1,26 @@
 Package: luci-app-usrmanage
-Version: 0.1.0-r1
+Version: 0.1.1-r1
 Depends: libc, luci-base, usrmanage, sudo
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 30720
-Filename: luci-app-usrmanage_0.1.0-r1_all.ipk
-Size: 5732
-SHA256sum: 1420e9c8f6f60e7063ab9dc448a7e399fdac2e3eabeebdb6c90ea397e0d314a5
+Installed-Size: 40960
+Filename: luci-app-usrmanage_0.1.1-r1_all.ipk
+Size: 7724
+SHA256sum: b3d42e20d62967317195483580cb5ac1e9b3aa9666901f76979d39851c222830
 Description:  Manage local UNIX users (readonly vs admin/wheel) with operational audit log
 
 Package: usrmanage
-Version: 0.1.0-r1
-Depends: libc, sudo, jshn, jsonfilter
+Version: 0.1.1-r1
+Depends: libc, sudo, jshn, jsonfilter, shadow-useradd, shadow-userdel, shadow-usermod, shadow-chpasswd, shadow-gpasswd
 License: Apache-2.0
 Section: admin
 Architecture: all
-Installed-Size: 40960
-Filename: usrmanage_0.1.0-r1_all.ipk
-Size: 8653
-SHA256sum: 0a592663372ee063003a506cf1cc6eef808f9dcdead3899242b89cf3cb867008
+Installed-Size: 51200
+Filename: usrmanage_0.1.1-r1_all.ipk
+Size: 11007
+SHA256sum: 4d4f1d15422f54a7b73068b43bc39e528d0ffd5493d9bd2dc32f5d80e936d6f4
 Description:  Manage local OpenWrt UNIX users without RADIUS: add/remove, readonly vs
  admin (wheel+sudo), compact operational audit log. Arch-independent shell
  implementation for OpenWrt 24.10 and 25.12.

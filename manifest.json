@@ -1,11 +1,11 @@
 {
-  "git_tag": "v0.1.0",
+  "git_tag": "v0.1.1",
   "packages": [
-    {"openwrt": "23.05", "file": "luci-app-usrmanage_0.1.0_all.ipk", "sha256": "663491bc6a738c874d99e6d0bce9d3f7e83886b34aeb6a924dcebbff5264b4fb"},
-    {"openwrt": "23.05", "file": "usrmanage_0.1.0-1_all.ipk", "sha256": "645f2006163781943325b2c18ac8e1026cb5aba2b639984378b5d0e416c21776"},
-    {"openwrt": "24.10", "file": "luci-app-usrmanage_0.1.0-r1_all.ipk", "sha256": "1420e9c8f6f60e7063ab9dc448a7e399fdac2e3eabeebdb6c90ea397e0d314a5"},
-    {"openwrt": "24.10", "file": "usrmanage_0.1.0-r1_all.ipk", "sha256": "0a592663372ee063003a506cf1cc6eef808f9dcdead3899242b89cf3cb867008"},
-    {"openwrt": "25.12", "file": "luci-app-usrmanage-0.1.0-r1.apk", "sha256": "ff23775efbd07e739ff9a6fb54645156549e9fe078b8ac96dc2970d571b20f4d"},
-    {"openwrt": "25.12", "file": "usrmanage-0.1.0-r1.apk", "sha256": "60aa97289116d5a06c6758fbf4d0eaf8b824829ef5d39714a3fded98b1defb5a"}
+    {"openwrt": "23.05", "file": "luci-app-usrmanage_0.1.1_all.ipk", "sha256": "c76205edc3f27b85e75e3dd4331bad14ad8b4b5d1b215d749bb59dead4041ec1"},
+    {"openwrt": "23.05", "file": "usrmanage_0.1.1-1_all.ipk", "sha256": "d06125153673d57fc6cccc545618b382db59035a6126b78a1850eff44b234bf0"},
+    {"openwrt": "24.10", "file": "luci-app-usrmanage_0.1.1-r1_all.ipk", "sha256": "b3d42e20d62967317195483580cb5ac1e9b3aa9666901f76979d39851c222830"},
+    {"openwrt": "24.10", "file": "usrmanage_0.1.1-r1_all.ipk", "sha256": "4d4f1d15422f54a7b73068b43bc39e528d0ffd5493d9bd2dc32f5d80e936d6f4"},
+    {"openwrt": "25.12", "file": "luci-app-usrmanage-0.1.1-r1.apk", "sha256": "ce11afd0f90ea7eb35b0342cee4b24ea5bdb5c352d813750b40f50afb5701c9b"},
+    {"openwrt": "25.12", "file": "usrmanage-0.1.1-r1.apk", "sha256": "7e1bcd2e65a686589dce987f71f26d265d62eee49c858ad004a8ab9463404135"}
   ]
 }
