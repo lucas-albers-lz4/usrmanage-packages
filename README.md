@@ -6,12 +6,35 @@ Signed OpenWrt package feed for **usrmanage** and **luci-app-usrmanage**.
 
 Source and CI: https://github.com/lucas-albers-lz4/usrmanage
 
+## Key fingerprints (out-of-band verification)
+
+Verify the signing keys against these fingerprints BEFORE adding them
+(fingerprints computed 2026-08-10 from the live feed; mirrored from the
+usrmanage repo's `docs/binary-feed.md` — the feed and the source repo
+are different origins, so a compromise of either cannot silently swap
+the keys):
+
+| Key file | usign Key ID | SHA-256 |
+|----------|-------------|---------|
+| `public.key` (opkg) | `f4345260b7ec740d` | `c40bc217f793623e75ea6c77ddb4610b3c6fd64ba3934741ac28754d0e0f970d` |
+| `usrmanage-feed.rsa.pub` (apk) | — | `4bb7f1bf54d95b9c490b8c1d5394c347a4db408ecb811a0bab8c4aea2747e5c7` |
+
+```sh
+wget -O /tmp/usrmanage.key https://lucas-albers-lz4.github.io/usrmanage-packages/public.key
+echo 'c40bc217f793623e75ea6c77ddb4610b3c6fd64ba3934741ac28754d0e0f970d  /tmp/usrmanage.key' | sha256sum -c - || { echo "FINGERPRINT MISMATCH"; exit 1; }
+opkg-key add /tmp/usrmanage.key
+```
+
+Rotation: changing a signing key requires updating these fingerprints
+in the same release (both this README and the source repo).
+
 ## Install
 
 ### OpenWrt 24.10 (opkg)
 
 ```sh
 wget -O /tmp/usrmanage.key https://lucas-albers-lz4.github.io/usrmanage-packages/public.key
+echo 'c40bc217f793623e75ea6c77ddb4610b3c6fd64ba3934741ac28754d0e0f970d  /tmp/usrmanage.key' | sha256sum -c - || { echo "FINGERPRINT MISMATCH"; exit 1; }
 opkg-key add /tmp/usrmanage.key
 echo 'src/gz usrmanage https://lucas-albers-lz4.github.io/usrmanage-packages/24.10' >> /etc/opkg/customfeeds.conf
 opkg update
