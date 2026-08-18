@@ -1,9 +1,15 @@
 {
-  "git_tag": "v0.1.4",
+  "git_tag": "v0.1.5",
+  "sdk_images": [
+    {"openwrt": "25.12.5", "target": "armsr-armv8", "image": "ghcr.io/openwrt/sdk:armsr-armv8-25.12.5", "digest": "ghcr.io/openwrt/sdk@sha256:d7759c08b2c0b0ffe57719bd8a293543708cbc27b18941478ebeae04c42986ed"},
+    {"openwrt": "24.10.8", "target": "armsr-armv8", "image": "ghcr.io/openwrt/sdk:armsr-armv8-24.10.8", "digest": "ghcr.io/openwrt/sdk@sha256:6e63408098ef89036bd7a49ff70101279affc4db212931a8d528b197f7a48681"},
+    {"openwrt": "25.12.5", "target": "x86-64", "image": "ghcr.io/openwrt/sdk:x86-64-25.12.5", "digest": "ghcr.io/openwrt/sdk@sha256:c8a248ce2411962a89f227db444bf5cea022829b049e6326c7d1032d9762982a"},
+    {"openwrt": "24.10.8", "target": "x86-64", "image": "ghcr.io/openwrt/sdk:x86-64-24.10.8", "digest": "ghcr.io/openwrt/sdk@sha256:b28d5e4087dbd3f815a8bf5440a11e54e6bbd3d7400c3729d872e7940a4a77c1"}
+  ],
   "packages": [
-    {"openwrt": "24.10", "file": "luci-app-usrmanage_0.1.4-r1_all.ipk", "sha256": "bb5ca0255a8821e494e1e2222025177c5778d081cee08894d8b1ba5533316836"},
-    {"openwrt": "24.10", "file": "usrmanage_0.1.4-r1_all.ipk", "sha256": "8205cb64d4c0dae75ccd65e218e2bf464fd3f4bcb991d0f929e4d326c6890284"},
-    {"openwrt": "25.12", "file": "luci-app-usrmanage-0.1.4-r1.apk", "sha256": "79f598d90123de853c9f55994e634b3a89d0409e2b81f6bbd96561532bbb47c7"},
-    {"openwrt": "25.12", "file": "usrmanage-0.1.4-r1.apk", "sha256": "58e962fef6229caad74ad94f400dca27f377243291540e9353cab6bc44e8d704"}
+    {"openwrt": "24.10", "file": "luci-app-usrmanage_0.1.5-r1_all.ipk", "sha256": "8833216cea4b494f83035de2cd7a06206b69fffe4f633f3941c01dc582d115b7"},
+    {"openwrt": "24.10", "file": "usrmanage_0.1.5-r1_all.ipk", "sha256": "22cd67a59b07fe8a5dcd159393839c3cc36bcce8928911755730eb038909fad3"},
+    {"openwrt": "25.12", "file": "luci-app-usrmanage-0.1.5-r1.apk", "sha256": "a2fe0cee54166924eac2691da0209d48890f665d170aa254a2fa81f8348a4377"},
+    {"openwrt": "25.12", "file": "usrmanage-0.1.5-r1.apk", "sha256": "ebc83081762d9276700061f7a18fe7e62981b34d42883c4c968f09b854de976b"}
   ]
 }
