@@ -9,7 +9,7 @@
   "packages": [
     {"openwrt": "24.10", "file": "luci-app-usrmanage_0.1.5-r1_all.ipk", "sha256": "8833216cea4b494f83035de2cd7a06206b69fffe4f633f3941c01dc582d115b7"},
     {"openwrt": "24.10", "file": "usrmanage_0.1.5-r1_all.ipk", "sha256": "22cd67a59b07fe8a5dcd159393839c3cc36bcce8928911755730eb038909fad3"},
-    {"openwrt": "25.12", "file": "luci-app-usrmanage-0.1.5-r1.apk", "sha256": "fdd157c6fe9845ddbbcd6788ed6de789bf227ba8a914ac196bbe80baac25b796"},
+    {"openwrt": "25.12", "file": "luci-app-usrmanage-0.1.5-r1.apk", "sha256": "b7acd1f601348de26726775954d81af1b66b9225cfa351d44e4d03caeaa7c49c"},
     {"openwrt": "25.12", "file": "usrmanage-0.1.5-r1.apk", "sha256": "ebc83081762d9276700061f7a18fe7e62981b34d42883c4c968f09b854de976b"}
   ]
 }
