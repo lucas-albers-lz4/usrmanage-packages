@@ -1,5 +1,5 @@
 {
-  "git_tag": "v0.1.11",
+  "git_tag": "v0.1.12",
   "sdk_images": [
     {"openwrt": "25.12.5", "target": "armsr-armv8", "image": "ghcr.io/openwrt/sdk:armsr-armv8-25.12.5", "digest": "ghcr.io/openwrt/sdk@sha256:d7759c08b2c0b0ffe57719bd8a293543708cbc27b18941478ebeae04c42986ed"},
     {"openwrt": "24.10.8", "target": "armsr-armv8", "image": "ghcr.io/openwrt/sdk:armsr-armv8-24.10.8", "digest": "ghcr.io/openwrt/sdk@sha256:6e63408098ef89036bd7a49ff70101279affc4db212931a8d528b197f7a48681"},
@@ -7,9 +7,9 @@
     {"openwrt": "24.10.8", "target": "x86-64", "image": "ghcr.io/openwrt/sdk:x86-64-24.10.8", "digest": "ghcr.io/openwrt/sdk@sha256:b28d5e4087dbd3f815a8bf5440a11e54e6bbd3d7400c3729d872e7940a4a77c1"}
   ],
   "packages": [
-    {"openwrt": "24.10", "file": "luci-app-usrmanage_0.1.11-r1_all.ipk", "sha256": "d62953f0d022411abad94c7aa90f18eeda7761fc86c3f216d98ed33446e7d931"},
-    {"openwrt": "24.10", "file": "usrmanage_0.1.11-r1_all.ipk", "sha256": "b556289a1658c377c12ed16623e07b1c6858338e3c1e4ee1521bd98d6bc02e9e"},
-    {"openwrt": "25.12", "file": "luci-app-usrmanage-0.1.11-r1.apk", "sha256": "ec1377d0dcc3d2f4353c01b4e4da2ba3203be0fe229c2db74acb01494641087c"},
-    {"openwrt": "25.12", "file": "usrmanage-0.1.11-r1.apk", "sha256": "ffca088dc551baffefe981e82f0cdb13e34f768308588924dc430619d44c087c"}
+    {"openwrt": "24.10", "file": "luci-app-usrmanage_0.1.12-r1_all.ipk", "sha256": "299a0bddf5a56b69fed464caf9f5986fff8cbd2efe77eca3436f5447df38001d"},
+    {"openwrt": "24.10", "file": "usrmanage_0.1.12-r1_all.ipk", "sha256": "927837cff355a113547b5db01fe98fd8a41e8d41941fe9162a6013f4869aefeb"},
+    {"openwrt": "25.12", "file": "luci-app-usrmanage-0.1.12-r1.apk", "sha256": "3ed84e2855a5fa410fa97b464d9f0e9e3e5543e17fd82dfa159ae620a6f97fc0"},
+    {"openwrt": "25.12", "file": "usrmanage-0.1.12-r1.apk", "sha256": "07783428f3b711411b299d8cc59c4e8182d8b40bfde0acd9a78eaa9293ee3dbb"}
   ]
 }
